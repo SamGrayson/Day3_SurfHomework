@@ -1,0 +1,391 @@
+/* Top of page */
+
+.top_wrapper {
+  position: relative;
+  background-color: lightgray;
+  width: 90%;
+  height: 350px;
+  margin:0px auto;
+  padding: 0px;
+  font-family: sans-serif;
+}
+
+.top {
+  background: linear-gradient(rgba(64,135,191,0.7),rgba(64,135,191,0.7)),
+              url('../images/waves_crashing.jpg');
+  background-position: 70%, 80%;
+  background-size: cover;
+  width:100%;
+  height:350px;
+}
+
+.logo_top {
+  position: absolute;
+  height: 30px;
+  left: 10%;
+  top:0;
+  margin:1%;
+  display: inline-block;
+  min-width: 10%;
+  text-align: center;
+}
+
+.logo_top h4 {
+  display: inline-block;
+  list-style: none;
+  font-size: 80%;
+  padding: 1px;
+  margin: 5px;
+}
+
+.logo_top img {
+  display: inline-block;
+  float: left;
+  margin-left: 30px;
+  width:13%;
+}
+
+.top p {
+  position: relative;
+  margin:0px;
+  top: 135px;
+  font-size: 12px;
+  text-align: center;
+}
+
+.top h1 {
+  color: white;
+  position: relative;
+  margin:0px;
+  top: 140px;
+  font-size: 80px;
+  text-align: center;
+}
+
+.nav_top {
+  position: absolute;
+  clear:left;
+  float:right;
+  left:70%;
+  top:0;
+  margin: 1%;
+}
+
+.top li {
+  list-style: none;
+  text-decoration: none;
+  display: inline;
+  padding:1px;
+  font-size: 80%;
+}
+
+/* Middle of page */
+
+.middle_wrapper {
+  border-bottom: solid lightgray 1px;
+  width: 90%;
+  height: 850px;
+  margin:30px auto 0px auto;
+}
+
+.middle {
+  width: 500px;
+  float: left;
+  margin-left: 10%;
+}
+
+.middle h2 {
+  font-size: 40px;
+  margin-bottom: 0;
+}
+
+.middle li {
+  padding: 2px;
+  font-size: 12px;
+  display: inline-block;
+  list-style: none;
+}
+
+.middle img {
+  width: 120px;
+  height: 25px;
+}
+
+#prof {
+  border-radius: 100%;
+  margin-top: 10px;
+}
+
+.indent {
+  position: relative;
+  margin-left: 20px;
+  border-left: solid 1px lightgray;
+  color:#008DDB;
+  font-size:20px;
+  height: 40px;
+}
+
+.indent div{
+  position: absolute;
+  left:0;
+  top:-10px;
+  margin-left: 20px;
+}
+
+.profile {
+  position: relative;
+  float:right;
+  width: 200px;
+  height: 200px;
+  margin-right: 10%;
+  font-size: 12px;
+}
+
+.profile img {
+  position: absolute;
+  right:25%;
+  left:25%;
+  top:25%;
+  bottom:25%;
+  margin: 0px auto;
+}
+
+.profile p {
+  position: relative;
+  text-align: center;
+  top:70%;
+  margin: 1px;
+}
+
+.social_link {
+  margin: 0px auto;
+  text-align: center;
+  position: relative;
+  top: 71%;
+  font-size: 10px;
+}
+
+.profile li, a{
+  text-align: center;
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
+  color:gray;
+}
+
+.ad {
+  position: relative;
+  float:right;
+  height:200px;
+  width:200px;
+  background: linear-gradient(rgba(64,135,191,0.7),rgba(64,135,191,0.7)),
+              url('../images/paddle_boarder.png');
+  background-size: cover;
+  margin-right: 10%;
+  margin-top: 25px;
+  clear:right;
+}
+
+.ad a {
+  position: absolute;
+  right: 0;
+  bottom: -12px;
+  font-size: 10px;
+}
+
+.sidebar {
+  float:right;
+  height: 300px;
+  width:200px;
+  margin-right: 10%;
+  margin-top:50px;
+  clear:right;
+}
+
+.sidebar h3 {
+  fint-size: 12px;
+  color:#008DDB;
+  margin: 0;
+}
+
+.sidebar p {
+  font-size: 10px;
+  color:gray;
+  margin: 0;
+}
+
+.most_posts  {
+  font-size: 30px;
+  text-align: center;
+  width: 90%
+  height: 400px;
+  margin:30px auto;
+}
+
+.most_posts h2 {
+  margin: 0;
+  color:#00466D;
+}
+
+/* Bottom of page */
+
+.bottom {
+  height: 200px;
+  width:90%;
+  margin: 0px auto;
+}
+
+.images a {
+  float:left;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.images li {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  padding: 0;
+  margin: 10px 80px 10px 10px;
+  list-style: none;
+  text-decoration: none;
+  color: #00466D;
+  font-size: 22px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  text-align: left;
+}
+
+.img_links1 {
+  background: linear-gradient(rgba(64,135,191,0.7),rgba(64,135,191,0.9)),
+              url('../images/surfdog.jpg');
+  min-width:25%;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  position: relative;
+}
+
+.img_links1:hover {
+  background: linear-gradient(rgba(64,135,191,0.2),rgba(64,135,191,0.2)),
+              url('../images/surfdog.jpg');
+  min-width:25%;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  position: relative;
+}
+
+.img_links2 {
+  background: linear-gradient(rgba(64,135,191,0.7),rgba(64,135,191,0.9)),
+              url('../images/beer.jpg');
+  min-width:25%;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  position: relative;
+}
+
+.img_links2:hover {
+  background: linear-gradient(rgba(64,135,191,0.2),rgba(64,135,191,0.2)),
+              url('../images/beer.jpg');
+  min-width:25%;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  position: relative;
+}
+
+.img_links3 {
+  background: linear-gradient(rgba(64,135,191,0.7),rgba(64,135,191,0.9)),
+              url('../images/zach.jpg');
+  width:25%;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  position: relative;
+}
+
+.img_links3:hover {
+  background: linear-gradient(rgba(64,135,191,0.2),rgba(64,135,191,0.2)),
+              url('../images/zach.jpg');
+  width:25%;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  position: relative;
+}
+
+.img_links4 {
+  background: linear-gradient(rgba(64,135,191,0.7),rgba(64,135,191,0.9)),
+              url('../images/taps.jpg');
+  width:25%;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  position: relative;
+}
+
+.img_links4:hover {
+  background: linear-gradient(rgba(64,135,191,0.2),rgba(64,135,191,0.2)),
+              url('../images/taps.jpg');
+  width:25%;
+  height: 200px;
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  position: relative;
+}
+
+.footer {
+  position: relative;
+  background-color:#10354C;
+  width:90%;
+  height: 80px;
+  margin:0px auto;
+  text-decoration: none;
+  list-style: none;
+  color:#BAC0C5;
+}
+
+.logo2 {
+  position: absolute;
+  left:12%;
+  top:25%;
+  float:left;
+  display: inline-block;
+  height: 80px;
+  width: 50%;
+}
+
+.nav2 {
+  position: absolute;
+  left:64%;
+  top:44%;
+  float:right;
+  display: inline-block;
+  height: 80px;
+  width: 50%;
+}
+
+.logo2>a {
+  padding-right: 10px;
+  float:left;
+}
+
+.logo2>p {
+  float:left;
+}
+
+.nav2>li {
+  display: inline;
+}
