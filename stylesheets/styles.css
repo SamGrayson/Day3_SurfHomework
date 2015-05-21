@@ -132,6 +132,14 @@
   margin-left: 20px;
 }
 
+.comments:hover {
+  background: linear-gradient(rgb(208,234,245),rgb(208,234,245));
+}
+
+.comments img:hover {
+  opacity: .2;
+}
+
 .profile {
   position: relative;
   float:right;
