@@ -395,6 +395,19 @@ body {
   order: 2;
 }
 
+.img_links1:hover li {
+  color: white;
+}
+.img_links2:hover li {
+  color: white;
+}
+.img_links3:hover li {
+  color: white;
+}
+.img_links4:hover li {
+  color: white;
+}
+
 .footer {
   position: relative;
   background-color:#10354C;
